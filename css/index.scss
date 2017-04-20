@@ -1,0 +1,376 @@
+@font-face{
+    font-family:"VarelaRound";
+    src:url('font/VarelaRound-Regular.otf');
+}
+body{
+    margin: 0;
+    font-family:"VarelaRound";
+}
+.box{
+    width: 100%;
+}
+.top{
+    background: #75b42b;
+    color: #fff;
+}
+i{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    
+}
+.top .logo{
+    display: inline-block;
+    width: 40%;
+    font-size: 40px;
+    text-align: center;
+}
+.top a{
+    text-decoration: none;
+    margin: 10px;
+    color: #fff;
+}
+.top .top_img{
+    background-image: url(../img/iPhone.png);
+    text-align: center;
+    background-size: contain;
+    height: 500px;
+}
+.top_img .title{
+    display: block;
+    font-size: 70px;
+    padding-top: 100px;
+}
+.top_img button{
+    width: 200px;
+    height: 80px;
+    color: #fff;
+    background-color: rgba(0,0,0,0.1);
+    border: 2px solid #fff;
+    margin-top: 50px ;
+    
+    &:nth-of-type(1){
+        background-image: url(../img/1.png);
+        background-repeat: no-repeat;
+        background-position: 20px;
+    }
+    &:nth-of-type(2){
+        background-image: url(../img/2.png);
+        background-repeat: no-repeat;
+        background-position: 10px;
+    }
+}
+.top_img .next{
+    margin-top: 120px;
+    & i:nth-of-type(1){
+        background-color: #fff;
+    }
+}
+.top_img .next {
+  margin-top: 120px;
+}
+.top_img .next i:nth-of-type(1) {
+  background-color: #fff;
+}
+.bodyOne{
+    width: 100%;
+    text-align: center;
+}
+.bodyOne b{
+    display: block;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.bodyOne .function{
+    width: 100%;
+    div{
+        display: inline-block;
+        margin: 30px auto;
+        padding-top: 150px;
+    }
+    div:nth-of-type(1){
+        background: url(../img/3.png) no-repeat;
+        margin-right: 50px;
+        
+    }
+    div:nth-of-type(2){
+        background: url(../img/4.png) no-repeat;
+    }
+    div:nth-of-type(3){
+        background: url(../img/5.png) no-repeat;
+        margin-left: 50px;
+    }
+}
+
+.bodyTwo{
+    background: #262626;
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    div{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    & .left{
+        
+        background: url(../img/iphone2.png) no-repeat;
+        background-size: 80%;
+        background-position: 130px 60px;
+    }
+    & .right{
+        .right_text{
+            width: 60%;
+            height: 350px;
+
+            b{
+                display: block;
+                font-size: 30px;
+                margin-top: 200px;
+                margin-bottom: 20px;
+            }
+        }
+        
+        .right_textTwo{ 
+            width: 73%;
+            height: 200px;
+            div{
+            display: inline-block;
+            width: 200px;
+            height: 100px;
+            background: url(../img/15.png) no-repeat;
+            
+            }
+            & i:nth-of-type(1){
+                background-color: #fff;
+            }
+        }
+    }
+    
+    
+}
+.bodyThree{
+    background: #313131;
+    width: 100%;
+    height: 600px;
+    .left{
+        color: #fff;
+        width: 50%;
+        
+        b{
+            display: block;
+            font-size: 30px;
+            margin-top: 150px;
+            margin-bottom: 25px;
+        }
+        .left_text{
+            width: 55%;
+            height: 500px;
+            float: right;
+            background: url(../img/6.png) no-repeat;
+            background-position: 0px 300px;
+            background-size: contain;
+        }
+       
+        
+    }
+     .right{
+        width: 100%;
+        height: 600px;
+        background: url(../img/Nexus.png) no-repeat;
+        background-position: 75% 100px;
+        background-size: 35%;
+        
+     }
+}
+.bodyFour{
+    width: 100%;
+    height: 600px;
+    .up{
+        
+        margin-left: 23%;
+        width: 30%;
+        margin-bottom: 80px;
+        b{
+            display: block;
+            font-size: 30px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            color: #82c830;
+        }
+    }
+    .bottom{
+        width: 100%;
+        .content{
+            display: inline-block;
+            width: 24.5%;
+            .content_text{
+                display: none;
+                
+                background: url(../img/14.png) no-repeat;
+            }
+            &:nth-last-of-type(1) .contentImg{
+                display: inline-block;
+                width: 100%;
+                height: 300px;
+                background: url(../img/8.png) no-repeat;
+                background-size: 350px 300px;
+            }
+            &:nth-last-of-type(2) .contentImg{
+                display: inline-block;
+                width: 100%;
+                height: 300px;
+                background: url(../img/9.png) no-repeat;
+                background-size: 350px 300px;
+            }
+            &:nth-last-of-type(3) .contentImg{
+                display: inline-block;
+                width: 100%;
+                height: 300px;
+                background: url(../img/10.png) no-repeat;
+                background-size: 350px 300px;
+            }
+            &:nth-last-of-type(4) .contentImg{
+                display: inline-block;
+                width: 100%;
+                height: 300px;
+                background: url(../img/7.png) no-repeat;
+                background-size: 350px 300px;
+            }
+        }
+        .content:hover{
+            .content_text{
+                display: block;
+                color: #fff;
+                height: 50px;
+                background-color: #000;
+                line-height: 50px;
+                background-position: 300px 15px;
+                margin-top: -10px;
+                b{
+                    color: #75B42B;
+                    float: right;
+                }
+            }
+        }
+    }
+}
+.bodyFive{
+    margin-top: -80px;
+    width: 100%;
+    height: 600px;
+    background-color: #75B42B;
+    .lefts{
+        float: left;
+        width: 45%;
+        height: 100%;
+        background: url(../img/11.png) no-repeat;
+        background-size: 50% ;
+        background-position: 100% 200px;
+    }
+    .rights{
+        float: left;
+        width: 48%;
+        height: 100%;
+        color: #fff;
+        b{
+            display: block;
+            width: 250px;
+            font-size: 30px;
+            margin-top: 180px;
+            
+        }
+        button{
+            width: 200px;
+            height: 80px;
+            color: #fff;
+            background-color: rgba(0,0,0,0.1);
+            border: 2px solid #fff;
+            margin-top: 50px ;
+            
+            &:nth-of-type(1){
+                background-image: url(../img/1.png);
+                background-repeat: no-repeat;
+                background-position: 20px;
+            }
+            &:nth-of-type(2){
+                background-image: url(../img/2.png);
+                background-repeat: no-repeat;
+                background-position: 10px;
+            }
+        }
+    }
+}
+
+.bodySix{
+    width: 100%;
+    height: 450px;
+    background-color: #e7e7e7;
+    .text{
+        width: 60%;
+        height: 250px;
+        color: #666;
+        margin: 0 auto;
+        padding-top: 80px ;
+       
+    }
+    .content{
+        margin-top: 50px;
+        height: 200px;
+        border-top: 1px solid #313131;
+        div{
+            margin-top: 25px;
+            float: left;
+            width: 50%;
+            height: 200px;
+            b{
+                display: block
+            }
+        }
+        div:nth-last-of-type(1){
+            background: url(../img/13.png) no-repeat;
+            background-position: 0px 100px;
+            background-size: contain;
+        }
+        div:nth-last-of-type(2){
+            background: url(../img/12.png) no-repeat;
+            background-position: 0px 100px;
+        }
+    }
+}
+.ending{
+    width: 100%;
+    height: 200px;
+    color: #666;
+    .left{
+        text-align: center;
+        display: inline-block;
+        width: 48%;
+        line-height: 200px;
+    }
+    .right{
+        margin-top: 50px ;
+        display: inline-block;
+        width: 48%;
+        margin-left: 50px;
+        input{
+            
+            text-align: left;
+            display: inline-block;
+            width: 300px;
+            height: 40px;
+            color: #666666;
+        }
+        button{
+            display: inline-block;
+            width: 80px;
+            height: 45px;
+            background-color: #82C830;
+            border: 0px;
+            color: #fff;
+        }
+    }
+}
+
